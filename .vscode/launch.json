@@ -7,6 +7,5 @@
             "request": "launch",
             "mainClass": "Main"
         }
-    ],
-    "java.debug.settings.forceBuildBeforeLaunch": true
+    ]
 }
