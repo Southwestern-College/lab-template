@@ -6,6 +6,7 @@
   "editor.formatOnType": true,
 
   "files.exclude": {
+    "**/.assets": true,
     "**/.devcontainer": true,
     "**/.test": true,
     "**/.vscode": true,
@@ -22,5 +23,13 @@
 
   "extensions.ignoreRecommendations": true,
   "redhat.telemetry.enabled": false,
-  "markdown.preview.doubleClickToSwitchToEditor": false
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+
+  "java.project.sourcePaths": [
+    ".",
+    ".test"
+  ],
+  "java.project.referencedLibraries": [
+    ".test/**/*.jar"
+  ]
 }
